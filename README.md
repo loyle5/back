@@ -1,4 +1,4 @@
-教程地址: https://blog.kuoruan.com/82.html
+<pre>教程地址: https://blog.kuoruan.com/82.html
 
 一, 开放端口
 service iptables start
@@ -11,7 +11,7 @@ service iptables save
 rm -f install_fs.sh
 wget  https://github.com/dupontjoy/customization/raw/master/Rules/Shadowsocks/Finalspeed/install_fs.sh
 chmod +x install_fs.sh
-./install_fs.sh 2>&1 | tee install.log
+./install_fs.sh 2&gt;&amp;1 | tee install.log
 
 三, 其他使用说明
 
@@ -30,4 +30,4 @@ sh /fs/stop.sh
 sh /fs/restart.sh
 
 运行日志：
-tail -f /fs/server.log
+tail -f /fs/server.log</pre>
